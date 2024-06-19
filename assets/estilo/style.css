@@ -56,21 +56,20 @@ body {
     background-color: #0056b3;
 }
 
-/* Estilo específico para el dropdown de países */
 .form-group select {
     width: 100%;
     padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 4px;
     font-size: 16px;
-    background-color: #ffffff; /* Fondo blanco */
-    color: #555555; /* Texto gris */
-    appearance: none; /* Para quitar el estilo de select nativo */
+    background-color: #ffffff; 
+    color: #555555; 
+    appearance: none; 
     cursor: pointer;
 }
 
 .form-group select option {
     padding: 10px;
-    background-color: #ffffff; /* Fondo blanco */
-    color: #555555; /* Texto gris */
+    background-color: #ffffff; 
+    color: #555555; 
 }
