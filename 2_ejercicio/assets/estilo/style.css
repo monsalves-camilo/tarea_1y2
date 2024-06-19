@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://cdn.prod.website-files.com/6442419dcf656a81da76b503/65abe47618f010d59935538b_office-background-for-zoom.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+.form-group input,
+.form-group select {
+    width: calc(100% - 16px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo específico para el dropdown de países */
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #555555; /* Texto gris */
+    appearance: none; /* Para quitar el estilo de select nativo */
+    cursor: pointer;
+}
+
+.form-group select option {
+    padding: 10px;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #555555; /* Texto gris */
+}
